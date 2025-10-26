@@ -1,0 +1,27 @@
+[
+    {
+        "id": "MTC-570S", "type": "bus", "name": "570S (Deluxe)",
+        "first_bus": "04:30", "last_bus": "22:00", "frequency_peak": "10-15 mins",
+        "stops": ["Koyambedu", "Vadapalani", "Ashok Pillar", "Guindy", "Saidapet", "IIT Madras", "Adyar Depot", "Thiruvanmiyur", "SRP Tools", "Perungudi", "Thoraipakkam", "Sholinganallur", "Siruseri IT Park", "Kelambakkam"]
+    },
+    {
+        "id": "MTC-21G", "type": "bus", "name": "21G (Regular)",
+        "first_bus": "05:00", "last_bus": "23:00", "frequency_peak": "5-10 mins",
+        "stops": ["Central Station", "Egmore", "Nungambakkam", "T. Nagar", "Saidapet", "Guindy", "St. Thomas Mount", "Velachery"]
+    },
+    {
+        "id": "MTC-15B", "type": "bus", "name": "15B (Regular)",
+        "first_bus": "05:15", "last_bus": "22:45", "frequency_peak": "10-15 mins",
+        "stops": ["Thiruvotriyur", "Tollgate", "Parrys Corner", "Central Station", "Egmore", "Nungambakkam", "T. Nagar"]
+    },
+    {
+        "id": "MTC-29A", "type": "bus", "name": "29A (Regular)",
+        "first_bus": "04:45", "last_bus": "22:30", "frequency_peak": "8-12 mins",
+        "stops": ["Perambur", "Egmore", "Central Station", "Parrys Corner", "Anna Square"]
+    },
+    {
+        "id": "MTC-70", "type": "bus", "name": "70 (Regular)",
+        "first_bus": "04:00", "last_bus": "23:00", "frequency_peak": "10-15 mins",
+        "stops": ["Avadi", "Ambattur", "Koyambedu", "Vadapalani", "Guindy", "St. Thomas Mount", "Pallavaram", "Chromepet", "Tambaram"]
+    }
+]

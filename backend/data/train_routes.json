@@ -1,0 +1,14 @@
+[
+    {
+        "id": "SR-South-Line", "type": "train", "name": "Suburban Train (South Line)",
+        "stops": [
+            { "name": "Chennai Beach", "time": "05:00" }, { "name": "Chennai Fort", "time": "05:03" }, { "name": "Park", "time": "05:06" }, { "name": "Egmore", "time": "05:09" }, { "name": "Nungambakkam", "time": "05:15" }, { "name": "Kodambakkam", "time": "05:18" }, { "name": "Mambalam", "time": "05:21" }, { "name": "Saidapet", "time": "05:24" }, { "name": "Guindy", "time": "05:27" }, { "name": "St. Thomas Mount", "time": "05:30" }, { "name": "Pallavaram", "time": "05:35" }, { "name": "Chromepet", "time": "05:38" }, { "name": "Tambaram", "time": "05:45" }
+        ]
+    },
+    {
+        "id": "SR-West-Line", "type": "train", "name": "Suburban Train (West Line)",
+        "stops": [
+            { "name": "Chennai Central", "time": "05:00" }, { "name": "Perambur", "time": "05:10" }, { "name": "Thirumullaivoyal", "time": "05:20" }, { "name": "Ambattur", "time": "05:25" }, { "name": "Pattabiram", "time": "05:30" }, { "name": "Avadi", "time": "05:40" }
+        ]
+    }
+]

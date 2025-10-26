@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f7f6;
+    font-family: "Inter", sans-serif;
+}
+
+/* --- Homepage Animation Styles --- */
+.globe-container {
+    position: absolute; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden; z-index: 0;
+}
+.globe {
+    width: 250px; height: 250px; border-radius: 50%;
+    background: #1e3a8a; opacity: 0.1; position: relative;
+    box-shadow: 0 0 50px rgba(59, 130, 246, 0.3);
+}
+.vehicle-orbit {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--orbit-radius, 150px); height: var(--orbit-radius, 150px);
+    animation: orbit var(--anim-duration, 10s) linear infinite;
+    animation-delay: var(--anim-delay, 0s);
+}
+.vehicle {
+    position: absolute; top: -15px; left: 50%;
+    transform: translateX(-50%);
+    width: 30px; height: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.vehicle.bus { color: #16a34a; }
+.vehicle.train { color: #db2777; }
+
+@keyframes orbit {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}

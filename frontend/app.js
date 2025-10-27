@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchButton = document.getElementById("search-btn");
 
     // --- 2. DEFINE THE BACKEND API URL ---
-    const API_URL = "http://localhost:3000/api/find-routes";
+    const API_URL = "https://chennai-trip-planner.onrender.com";
 
     // --- 3. LOAD ONLY THE STATIONS FOR AUTOCOMPLETE ---
     async function loadStations() {
